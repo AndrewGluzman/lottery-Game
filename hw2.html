@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <title>Document</title>
+    <script src="hw2.js"></script>
+  </head>
+  <body
+    style="text-align: center; background: rgb(165, 163, 163); color: honeydew"
+    class="d-flex align-items-center"
+  >
+    <div
+      style="background: grey; min-height: 300px; margin-top: 110px"
+      class="container-fluid p-5"
+    >
+      <h1>WELCOME TO LOTTO!</h1>
+
+      <p>Please enter 6 numbers between 1 and 20</p>
+      <div class="input">
+        <input id="userInp" type="number" placeholder="ENTER HERE" />
+        <button class="btn btn-light" id="addNum">Add</button>
+      </div>
+      <p id="user-list"></p>
+      <!-- <div id="user-list"></div> -->
+
+      <h2 id="result-num"></h2>
+      <h2 style="margin: 20px 0" id="result">>>Result<<</h2>
+      <button class="btn btn-light" id="start">Start a game!</button>
+      <br />
+      <button
+        style="margin-top: 10px; color: rgb(172, 170, 170)"
+        class="btn"
+        id="reset"
+      >
+        again?
+      </button>
+    </div>
+  </body>
+</html>
